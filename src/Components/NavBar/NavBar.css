@@ -1,0 +1,9 @@
+.NavBar {
+	padding: var(--main-padding);
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-links {
+	display: flex;
+}

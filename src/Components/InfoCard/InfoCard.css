@@ -1,0 +1,26 @@
+.InfoCard {
+	padding: var(--main-padding);
+	text-align: center;
+	color: var(--white);
+}
+
+.InfoCard:nth-child(1) {
+	background-color: var(--dark-blue);
+}
+
+.InfoCard:nth-child(2) {
+	background-color: var(--red);
+}
+.InfoCard:nth-child(3) {
+	background-color: var(--orange);
+}
+
+.info-card-header {
+	font-size: 24px;
+	font-weight: 700;
+	padding: var(--small-padding);
+}
+
+.info-card-text {
+	padding: var(--small-padding);
+}

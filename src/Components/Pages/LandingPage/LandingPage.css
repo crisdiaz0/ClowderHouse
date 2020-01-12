@@ -1,0 +1,9 @@
+.LandingPage {
+	height: 100%;
+}
+
+.main-section {
+	height: 500px;
+	padding: var(--main-padding);
+	background-color: var(--white);
+}
