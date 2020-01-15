@@ -13,6 +13,8 @@
 	--border-radius: 16px;
 
 	--main-font-size: 16px;
+
+	--desktop-breakpoint: 1000px;
 }
 
 body {

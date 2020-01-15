@@ -11,9 +11,6 @@ const App: React.FC = () => {
 		<Router history={history}>
 			<Switch>
 				<Route path="/" exact component={LandingPage} />
-				{/* <Route path="/login" exact component={LoginPage} />
-				<Route path="/signup" exact component={SignUpPage} /> */}
-				{/* <Route path="/homepage" exact component={withAuth(HomePage)} /> */}
 			</Switch>
 		</Router>
 	);

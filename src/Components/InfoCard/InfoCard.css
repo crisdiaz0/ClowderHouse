@@ -21,6 +21,7 @@
 	padding: var(--small-padding);
 }
 
-.info-card-text {
+.info-card-text,
+.info-card-logo {
 	padding: var(--small-padding);
 }

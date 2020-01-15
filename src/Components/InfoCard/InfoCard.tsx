@@ -1,18 +1,22 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { IconDefinition } from '@fortawesome/free-regular-svg-icons';
 import './InfoCard.css';
 
 export interface InfoCardProps {
-	logo?: string;
+	icon: IconDefinition;
 	header: string;
-	text: string;
+	body: React.ReactChild;
 }
 
-export const InfoCard = ({ logo, header, text }: InfoCardProps) => {
+export const InfoCard = ({ icon, header, body }: InfoCardProps) => {
 	return (
 		<div className="InfoCard">
-			<div className="info-card-logo">{logo}</div>
+			<div className="info-card-logo">
+				<FontAwesomeIcon icon={icon} size="2x" />
+			</div>
 			<div className="info-card-header">{header}</div>
-			<div className="info-card-text">{text}</div>
+			<div className="info-card-body">{body}</div>
 		</div>
 	);
 };

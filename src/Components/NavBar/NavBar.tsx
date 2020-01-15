@@ -1,14 +1,14 @@
 import React from 'react';
-import { NavLink } from '../NavLink/NavLink';
+
 import './NavBar.css';
+import { LinkProps, Link } from '../Link/Link';
 
 export const NavBar = () => {
-	const ContentLinks: NavLink[] = [
-		{ text: 'Volunteer', link: '#' },
-		{ text: 'Cat Admittance', link: '#' },
-		{ text: 'Adopt', link: '#' },
-		{ text: 'FAQs', link: '#' },
-		{ text: 'Contact', link: '#contact' }
+	const ContentLinks: LinkProps[] = [
+		{ text: 'Volunteer', link: '#volunteer' },
+		{ text: 'Cat Admittance', link: '#cat-admittance' },
+		{ text: 'Adopt', link: '#adopt' },
+		{ text: 'FAQs', link: '#faqs' }
 	];
 
 	return (
@@ -17,7 +17,7 @@ export const NavBar = () => {
 
 			<div className="main-links">
 				{ContentLinks.map(link => (
-					<NavLink
+					<Link
 						key={link.text}
 						text={link.text}
 						link={link.link}

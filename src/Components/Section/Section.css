@@ -1,0 +1,7 @@
+.Section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	/* height: 500px; */
+	padding: var(--main-padding);
+	background-color: var(--white);
+}
