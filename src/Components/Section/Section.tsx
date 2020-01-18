@@ -4,7 +4,7 @@ import './Section.css';
 interface SectionProps {
 	id: string;
 	header: string;
-	description: string[];
+	body: React.ReactChild;
 	img?: string;
 	isReversed?: boolean;
 }
@@ -12,18 +12,14 @@ interface SectionProps {
 export const Section = ({
 	id,
 	header,
-	description,
+	body,
 	img,
 	isReversed = false
 }: SectionProps) => {
 	const textContainer = (
 		<div className="section-text-container" id={id}>
 			<h1 className="section-header">{header}</h1>
-			<div className="section-description">
-				{description.map((s, i) => (
-					<p key={i}>{s}</p>
-				))}
-			</div>
+			<div className="section-body">{body}</div>
 		</div>
 	);
 
