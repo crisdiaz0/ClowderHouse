@@ -25,3 +25,8 @@
 .info-card-logo {
 	padding: var(--small-padding);
 }
+
+.InfoCard .link {
+	color: var(--white);
+	text-decoration: underline;
+}

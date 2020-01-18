@@ -48,7 +48,7 @@ export const LandingPage: React.FC = () => {
 			/>
 
 			<Section
-				id="cat=admittance"
+				id="cat-admittance"
 				header={`Cat Admittance`}
 				description={[
 					`Clowder House accepts new residents with a minimum placement fee. 
@@ -70,7 +70,7 @@ export const LandingPage: React.FC = () => {
 				isReversed={true}
 			/>
 
-			<Section id="faqs" header={`FAQs`} description={[`faws`]} />
+			<Section id="faqs" header={`FAQs`} description={[`faqs`]} />
 		</div>
 	);
 };
