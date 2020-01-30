@@ -1,11 +1,12 @@
 import React from 'react';
 import './Section.css';
+import { image } from '../../assets/Images';
 
 interface SectionProps {
 	id: string;
 	header: string;
 	body: React.ReactChild;
-	img?: string;
+	img?: image;
 	isReversed?: boolean;
 }
 
@@ -23,7 +24,11 @@ export const Section = ({
 		</div>
 	);
 
-	const imgContainer = <div className="section-img-container">{img}</div>;
+	const imgContainer = (
+		<div className="section-img-container">
+			{img && <img src={img.src} alt={img.alt} />}
+		</div>
+	);
 
 	return (
 		<div className={`Section`}>

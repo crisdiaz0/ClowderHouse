@@ -79,9 +79,9 @@ export const catAdmittanceSection = (
 			for your home.
 		</p>
 		<p>
-			'Foundation funds may be available for special needs and multiple
-			cat situations. We would be delighted to work with you or your legal
-			advisor on planning options.'
+			Foundation funds may be available for special needs and multiple cat
+			situations. We would be delighted to work with you or your legal
+			advisor on planning options.
 		</p>
 	</>
 );
@@ -106,7 +106,7 @@ export const faqSection = (
 		/>
 		<FAQ
 			title="How many cats live at your facility?"
-			body="Our average is about 200 cats, but it can fluctuate depending on the season."
+			body="Our average is about 300 cats, but it can fluctuate depending on the season."
 		/>
 		<FAQ
 			title="Are the cats caged?"
@@ -118,15 +118,15 @@ export const faqSection = (
 		/>
 		<FAQ
 			title="If I place a cat at your facility, when can I see them?"
-			body="If you have placed a cat in our care, we encourage you to visit whenever you can. You can come anytime during visiting hours from 2-4 pm on Sunday’s excluding any major holidays. Otherwise, please contact us to schedule an appointment."
+			body="If you have placed a cat in our care, we encourage you to visit whenever you can. You can come anytime during visiting hours. Otherwise, please contact us to schedule an appointment."
 		/>
 		<FAQ
 			title="What are the procedures once a cat arrives?"
-			body="Once a cat has been placed with us, the cat is isolated from our other cats for 2-3 days so we can complete a health assessment with our vet and observe their behavior. Most often, the cat is then released into general population in one of our large free-roam rooms."
+			body="Once a cat has been placed with us, the cat is isolated from our other cats for 10 days so we can complete a health assessment with our vet and observe their behavior. Most often, the cat is then released into general population in one of our large free-roam rooms."
 		/>
 		<FAQ
 			title="What are the benefits of volunteering?"
-			body="Besides seeing those smiling kitty faces each time, volunteers who complete more than 500 hours are eligible for boarding and endowment benefits for their own cats."
+			body="Besides seeing those smiling kitty faces each time, volunteers who complete more than 500 hours are eligible for reduced adoption fees and endowment benefits for their own cats."
 		/>
 		<FAQ
 			title="How are the cats cared for?"
@@ -134,7 +134,7 @@ export const faqSection = (
 		/>
 		<FAQ
 			title="How often does the vet visit?"
-			body=" We have a guaranteed monthly visit from our team of vets to administer shots and complete health assessments. We also call on our vets or transport our animals to the vet clinic as needed."
+			body="The vets we work with generally come to visit our cats, administer shots, and complete health assessments monthly. We also transport our residents to vet clinics as needed."
 		/>
 		<FAQ
 			title="Who is the vet at Clowder House?"
@@ -142,7 +142,7 @@ export const faqSection = (
 		/>
 		<FAQ
 			title="Why isn’t there someone there to answer my phone call?"
-			body="Our facility is staffed by volunteers only who are at the facility intermittently. Please contact us and leave a message and we will return your call as soon as possible."
+			body="Our facility is staffed by volunteers only, whose schedules change constantly. Please contact us and leave a message and we will return your call as soon as possible."
 		/>
 		<FAQ
 			title="Are you a non-profit organization?"
@@ -155,7 +155,7 @@ export const contactCardSection = (
 	<>
 		<p>
 			Clowder House is open to visitors 2 - 4PM on the 1st Sunday of each
-			month
+			month, excluding holidays
 		</p>
 		<address>
 			Clowder House Foundation, Inc.
@@ -180,7 +180,7 @@ export const donationCardSection = (
 		<p>
 			The generous donations of cat lovers enable us to provide these
 			valuable services. With increased support, we will be able to expand
-			the scope of services we offer.{' '}
+			the scope of services we offer.
 		</p>
 		<Link text="Donate" link="" />
 	</>

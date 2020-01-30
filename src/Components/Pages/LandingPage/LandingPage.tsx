@@ -10,6 +10,7 @@ import {
 	adoptSection,
 	faqSection
 } from '../../../Resources/Bodies';
+import images from '../../../assets/Images';
 
 export const LandingPage: React.FC = () => {
 	return (
@@ -20,6 +21,7 @@ export const LandingPage: React.FC = () => {
 				id="main"
 				header={`Life Time Care For Your Feline Friend`}
 				body={mainSection}
+				img={images[0]}
 			/>
 
 			<InfoCardContainer />
@@ -29,12 +31,14 @@ export const LandingPage: React.FC = () => {
 				header={`Become a Volunteer`}
 				body={volunteerSection}
 				isReversed={true}
+				img={images[0]}
 			/>
 
 			<Section
 				id="cat-admittance"
 				header={`Cat Admittance`}
 				body={catAdmittanceSection}
+				img={images[0]}
 			/>
 
 			<Section
@@ -42,6 +46,7 @@ export const LandingPage: React.FC = () => {
 				header={`Adopt`}
 				body={adoptSection}
 				isReversed={true}
+				img={images[0]}
 			/>
 
 			<Section id="faqs" header={`FAQs`} body={faqSection} />
