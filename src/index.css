@@ -1,6 +1,6 @@
 :root {
 	--dark-blue: #011627;
-	--white: #fdfffc;
+	--white: #f2f6f9;
 	--teal: #2ec4b6;
 	--red: #e71d36;
 	--orange: #ff9f1c;
@@ -13,8 +13,6 @@
 	--border-radius: 16px;
 
 	--main-font-size: 16px;
-
-	--desktop-breakpoint: 1000px;
 }
 
 body {

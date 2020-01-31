@@ -1,4 +1,5 @@
 import pic1 from './pic1.jpg';
+import logo from './clowderlogo.gif';
 
 export interface image {
 	id: number;
@@ -6,6 +7,9 @@ export interface image {
 	alt: string;
 }
 
-const images: image[] = [{ id: 0, src: pic1, alt: '' }];
+const images: image[] = [
+	{ id: 0, src: pic1, alt: '' },
+	{ id: 1, src: logo, alt: 'Clowder House' }
+];
 
 export default images;

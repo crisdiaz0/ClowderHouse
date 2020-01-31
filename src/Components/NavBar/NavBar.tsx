@@ -2,6 +2,7 @@ import React from 'react';
 
 import './NavBar.css';
 import { LinkProps, Link } from '../Link/Link';
+import images from '../../assets/Images';
 
 export const NavBar = () => {
 	const ContentLinks: LinkProps[] = [
@@ -13,7 +14,9 @@ export const NavBar = () => {
 
 	return (
 		<div className="NavBar">
-			<div className="logo">Clowder House Logo</div>
+			<div className="main-logo">
+				<img src={images[1].src} alt={images[1].alt} />
+			</div>
 
 			<div className="main-links">
 				{ContentLinks.map(link => (

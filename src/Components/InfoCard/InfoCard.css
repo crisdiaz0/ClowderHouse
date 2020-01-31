@@ -1,4 +1,6 @@
 .InfoCard {
+	width: auto;
+	height: auto;
 	padding: var(--main-padding);
 	text-align: center;
 	color: var(--white);

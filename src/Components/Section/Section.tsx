@@ -31,7 +31,7 @@ export const Section = ({
 	);
 
 	return (
-		<div className={`Section`}>
+		<div className={`${isReversed ? 'reversed' : 'normal'}`}>
 			{isReversed ? (
 				<>
 					{imgContainer}

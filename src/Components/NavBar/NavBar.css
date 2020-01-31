@@ -1,5 +1,4 @@
 .NavBar {
-	padding: var(--main-padding);
 	display: flex;
 	justify-content: space-between;
 }
@@ -8,8 +7,17 @@
 	display: flex;
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 850px) {
+@media only screen and (max-device-width: 900px) {
 	.NavBar {
-		display: none;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+
+	.main-links {
+		justify-content: space-between;
+	}
+
+	img {
+		width: 100vw;
 	}
 }

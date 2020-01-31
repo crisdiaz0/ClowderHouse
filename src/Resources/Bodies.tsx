@@ -65,7 +65,7 @@ export const catAdmittanceSection = (
 			from $1,000 to $3,000 per cat. On average, it’s estimated that a cat
 			owner spends about $7,000-$10,000 to care for a cat during its life
 			(estimated lifespan 15 years
-			<i>Wisconsin Humane Society website</i>)
+			<i> Wisconsin Humane Society website</i>)
 		</p>
 		<p>
 			Please contact us with any questions you may have about placing a
