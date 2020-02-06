@@ -2,7 +2,6 @@
 .reversed {
 	display: grid;
 	background-color: #ffffff;
-	border-radius: 22px;
 }
 
 .reversed {
@@ -17,6 +16,7 @@
 
 .section-text-container {
 	padding: var(--main-padding);
+	margin: auto;
 }
 
 .section-header {

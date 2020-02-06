@@ -21,7 +21,7 @@ export const LandingPage: React.FC = () => {
 				id="main"
 				header={`Life Time Care For Your Feline Friend`}
 				body={mainSection}
-				img={images[0]}
+				img={images[2]}
 			/>
 
 			<InfoCardContainer />

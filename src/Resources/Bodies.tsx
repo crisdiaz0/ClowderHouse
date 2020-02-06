@@ -182,7 +182,10 @@ export const donationCardSection = (
 			valuable services. With increased support, we will be able to expand
 			the scope of services we offer.
 		</p>
-		<Link text="Donate" link="" />
+		<Link
+			text="Donate"
+			link="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=etsyclowder%40gmail.com&item_name=Clowder+House+Foundation&currency_code=USD&source=url"
+		/>
 	</>
 );
 
