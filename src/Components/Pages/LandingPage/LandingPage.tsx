@@ -17,39 +17,41 @@ export const LandingPage: React.FC = () => {
 		<div className="LandingPage">
 			<NavBar />
 
-			<Section
-				id="main"
-				header={`Life Time Care For Your Feline Friend`}
-				body={mainSection}
-				img={images[2]}
-			/>
+			<div className="landing-body">
+				<Section
+					id="main"
+					header={`Life Time Care For Your Feline Friend`}
+					body={mainSection}
+					img={images[2]}
+				/>
 
-			<InfoCardContainer />
+				<InfoCardContainer />
 
-			<Section
-				id="volunteer"
-				header={`Become a Volunteer`}
-				body={volunteerSection}
-				isReversed={true}
-				img={images[0]}
-			/>
+				<Section
+					id="volunteer"
+					header={`Become a Volunteer`}
+					body={volunteerSection}
+					isReversed={true}
+					img={images[3]}
+				/>
 
-			<Section
-				id="cat-admittance"
-				header={`Cat Admittance`}
-				body={catAdmittanceSection}
-				img={images[0]}
-			/>
+				<Section
+					id="cat-admittance"
+					header={`Cat Admittance`}
+					body={catAdmittanceSection}
+					img={images[4]}
+				/>
 
-			<Section
-				id="adopt"
-				header={`Adopt`}
-				body={adoptSection}
-				isReversed={true}
-				img={images[0]}
-			/>
+				<Section
+					id="adopt"
+					header={`Adopt`}
+					body={adoptSection}
+					isReversed={true}
+					img={images[5]}
+				/>
 
-			<Section id="faqs" header={`FAQs`} body={faqSection} />
+				<Section id="faqs" header={`FAQs`} body={faqSection} />
+			</div>
 		</div>
 	);
 };
