@@ -29,9 +29,14 @@ img {
 }
 
 @media only screen and (max-width: 1100px) {
-	.normal,
-	.reversed {
+	.normal {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+
+	.reversed {
+		display: flex;
+
+		flex-direction: column-reverse;
 	}
 }
