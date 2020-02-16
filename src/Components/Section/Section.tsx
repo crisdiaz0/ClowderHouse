@@ -18,7 +18,7 @@ export const Section = ({
 	isReversed = false
 }: SectionProps) => {
 	const textContainer = (
-		<div className="section-text-container" id={id}>
+		<div className="section-text-container">
 			<h1 className="section-header">{header}</h1>
 			<div className="section-body">{body}</div>
 		</div>
@@ -31,7 +31,7 @@ export const Section = ({
 	);
 
 	return (
-		<div className={`${isReversed ? 'reversed' : 'normal'}`}>
+		<div id={id} className={`${isReversed ? 'reversed' : 'normal'}`}>
 			{isReversed ? (
 				<>
 					{imgContainer}

@@ -50,7 +50,12 @@ export const LandingPage: React.FC = () => {
 					img={images[5]}
 				/>
 
-				<Section id="faqs" header={`FAQs`} body={faqSection} />
+				<div className="faqs" id="faqs">
+					<div className="faqs-container">
+						<h1>FAQs</h1>
+						{faqSection}
+					</div>
+				</div>
 			</div>
 		</div>
 	);
