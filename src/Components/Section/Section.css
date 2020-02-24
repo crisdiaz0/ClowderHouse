@@ -2,16 +2,21 @@
 .reversed {
 	display: grid;
 	background-color: #ffffff;
+	margin: 36px 36px;
+	border-radius: var(--border-radius);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	font-size: large;
+	font-weight: 450;
 }
 
 .reversed {
 	display: grid;
-	grid-template-columns: 1fr 1.2fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 .normal {
 	display: grid;
-	grid-template-columns: 1.2fr 1fr;
+	grid-template-columns: 1fr 1fr;
 }
 
 .section-text-container {
@@ -28,6 +33,14 @@ img {
 	height: 100%;
 }
 
+.normal img {
+	border-radius: 0px var(--border-radius) var(--border-radius) 0px;
+}
+
+.reversed img {
+	border-radius: var(--border-radius) 0px 0px var(--border-radius);
+}
+
 @media only screen and (max-width: 1100px) {
 	.normal {
 		display: grid;
@@ -36,7 +49,17 @@ img {
 
 	.reversed {
 		display: flex;
-
 		flex-direction: column-reverse;
+	}
+
+	.normal,
+	.reversed {
+		margin: 0px 0px;
+		border-radius: 0px;
+	}
+
+	.normal img,
+	.reversed img {
+		border-radius: 0px;
 	}
 }

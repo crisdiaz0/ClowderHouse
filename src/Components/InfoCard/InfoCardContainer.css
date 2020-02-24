@@ -1,6 +1,7 @@
 .InfoCardContainer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
+	margin: 20px;
 }
 
 @media only screen and (max-width: 850px) {

@@ -1,34 +1,50 @@
 .InfoCard {
 	width: auto;
 	height: auto;
-	padding: var(--main-padding);
 	text-align: center;
-	color: var(--white);
+	background-color: white;
+	margin: 16px;
+	border-radius: var(--border-radius);
+	box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+	font-size: large;
+	font-weight: 450;
 }
 
-.InfoCard:nth-child(1) {
+.InfoCard:nth-child(1) .info-card-header {
 	background-color: var(--dark-blue);
 }
 
-.InfoCard:nth-child(2) {
+.InfoCard:nth-child(2) .info-card-header {
 	background-color: var(--red);
 }
-.InfoCard:nth-child(3) {
+.InfoCard:nth-child(3) .info-card-header {
 	background-color: var(--orange);
 }
 
 .info-card-header {
+	display: flex;
+	justify-content: center;
+	padding: var(--small-padding);
+	color: white;
+	border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+}
+
+.info-card-header-text {
 	font-size: 24px;
 	font-weight: 700;
 	padding: var(--small-padding);
 }
 
-.info-card-text,
-.info-card-logo {
+.info-card-header-logo {
 	padding: var(--small-padding);
 }
 
 .InfoCard .link {
-	color: var(--white);
 	text-decoration: underline;
+}
+
+.info-card-body {
+	padding: var(--main-padding);
+	padding-top: 0px;
+	line-height: 1.5rem;
 }

@@ -12,10 +12,15 @@ export interface InfoCardProps {
 export const InfoCard = ({ icon, header, body }: InfoCardProps) => {
 	return (
 		<div className="InfoCard">
-			<div className="info-card-logo">
-				<FontAwesomeIcon icon={icon} size="2x" />
+			<div className="info-card-header">
+				<FontAwesomeIcon
+					icon={icon}
+					size="2x"
+					className="info-card-header-logo"
+				/>
+				<div className="info-card-header-text">{header}</div>
 			</div>
-			<div className="info-card-header">{header}</div>
+
 			<div className="info-card-body">{body}</div>
 		</div>
 	);
