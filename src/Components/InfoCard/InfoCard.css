@@ -48,3 +48,14 @@
 	padding-top: 0px;
 	line-height: 1.5rem;
 }
+
+@media only screen and (max-device-width: 500px) {
+	.InfoCard {
+		margin: 16px 0px;
+	}
+
+	.info-card-body {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}

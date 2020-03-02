@@ -1,15 +1,16 @@
 .LandingPage {
 	height: 100%;
+	width: 100%;
 	background-color: var(--white);
 }
 
 .faqs {
 	background-color: var(--white);
 	padding-bottom: 64px;
+	font-size: large;
 }
 
 .faqs-container {
-	width: 60%;
 	padding: 16px 32px;
 	margin: auto;
 	margin-top: 32px;
@@ -23,9 +24,13 @@
 		padding-bottom: 0px;
 	}
 
+	.faqs h1 {
+		margin-top: 16px;
+	}
+
 	.faqs-container {
 		width: auto;
-		padding: 16px 16px;
+		padding: 16px var(--main-padding);
 		margin-top: 0px;
 		border-radius: 0px;
 	}

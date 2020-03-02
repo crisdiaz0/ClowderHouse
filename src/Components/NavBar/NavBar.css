@@ -16,6 +16,8 @@
 
 	.main-links {
 		justify-content: space-between;
+		margin-right: 0px;
+		margin: 0px 8px;
 	}
 
 	img {

@@ -12,7 +12,7 @@
 
 	--border-radius: 16px;
 
-	--main-font-size: 16px;
+	--main-font-size: 24px;
 }
 
 body {
@@ -22,8 +22,8 @@ body {
 		'Helvetica Neue', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	/* background-color: var(--white); */
+	background-color: var(--white);
 
-	/* margin: auto;
-	max-width: 1400px; */
+	margin: auto;
+	max-width: 1400px;
 }

@@ -1,4 +1,3 @@
-import pic1 from './pic1.jpg';
 import pic2 from './pic2.jpg';
 import pic3 from './pic3.jpg';
 import pic4 from './pic4.jpg';
@@ -12,7 +11,6 @@ export interface image {
 }
 
 const images: image[] = [
-	{ id: 0, src: pic1, alt: '' },
 	{ id: 1, src: logo, alt: 'Clowder House' },
 	{ id: 2, src: pic2, alt: '' },
 	{ id: 3, src: pic3, alt: '' },

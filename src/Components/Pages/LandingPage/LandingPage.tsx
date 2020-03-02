@@ -22,7 +22,7 @@ export const LandingPage: React.FC = () => {
 					id="main"
 					header={`Life Time Care For Your Feline Friend`}
 					body={mainSection}
-					img={images[2]}
+					img={images[1]}
 				/>
 
 				<InfoCardContainer />
@@ -32,14 +32,14 @@ export const LandingPage: React.FC = () => {
 					header={`Become a Volunteer`}
 					body={volunteerSection}
 					isReversed={true}
-					img={images[3]}
+					img={images[2]}
 				/>
 
 				<Section
 					id="cat-admittance"
 					header={`Cat Admittance`}
 					body={catAdmittanceSection}
-					img={images[4]}
+					img={images[3]}
 				/>
 
 				<Section
@@ -47,7 +47,7 @@ export const LandingPage: React.FC = () => {
 					header={`Adopt`}
 					body={adoptSection}
 					isReversed={true}
-					img={images[5]}
+					img={images[4]}
 				/>
 
 				<div className="faqs" id="faqs">

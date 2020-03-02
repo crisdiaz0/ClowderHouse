@@ -15,7 +15,7 @@ export const NavBar = () => {
 	return (
 		<div className="NavBar">
 			<div className="main-logo">
-				<img src={images[1].src} alt={images[1].alt} />
+				<img src={images[0].src} alt={images[0].alt} />
 			</div>
 
 			<div className="main-links">
