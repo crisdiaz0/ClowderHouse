@@ -14,11 +14,20 @@
 	background-color: var(--dark-blue);
 }
 
+.InfoCard:nth-child(1) {
+	margin-left: 0px;
+}
+
 .InfoCard:nth-child(2) .info-card-header {
 	background-color: var(--red);
 }
 .InfoCard:nth-child(3) .info-card-header {
 	background-color: var(--orange);
+	margin-right: 0px;
+}
+
+.InfoCard:nth-child(3) {
+	margin-right: 0px;
 }
 
 .info-card-header {
