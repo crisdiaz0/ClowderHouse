@@ -153,11 +153,17 @@ export const faqSection = (
 
 export const contactCardSection = (
 	<>
-		<p>
+		{/* <p>
 			Clowder House is open to visitors 2 - 4PM on the 1st Sunday of each
 			month, excluding:
 			<br />
 			<b>07/05/2020, 09/06/2020, 01/03/2021</b>
+		</p> */}
+		<p>
+			<b>
+				Due to the outbreak of COVID-19, we are temporarily suspending
+				visiting hours until further notice.
+			</b>
 		</p>
 		<address>
 			Clowder House Foundation, Inc.
