@@ -13,7 +13,7 @@ import {
 import images from '../../../assets/Images';
 
 export const LandingPage: React.FC = () => {
-	const [hidden, setHidden] = useState(false);
+	const [hidden, setHidden] = useState(true);
 
 	return (
 		<div className="LandingPage">

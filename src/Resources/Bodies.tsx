@@ -191,8 +191,16 @@ export const donationCardSection = (
 			the scope of services we offer.
 		</p>
 		<Link
-			text="Donate"
+			text="Donate with Paypal"
 			link="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=etsyclowder%40gmail.com&item_name=Clowder+House+Foundation&currency_code=USD&source=url"
+		/>
+		<p>
+			You can also use our affiliate Amazon Smile link to help raise
+			funds!
+		</p>
+		<Link
+			text="Amazon Smile"
+			link="https://smile.amazon.com/ref=smi_se_dshb_sn_smi"
 		/>
 	</>
 );
