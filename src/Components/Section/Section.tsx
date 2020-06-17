@@ -15,7 +15,7 @@ export const Section = ({
 	header,
 	body,
 	img,
-	isReversed = false
+	isReversed = false,
 }: SectionProps) => {
 	const textContainer = (
 		<div className="section-text-container">

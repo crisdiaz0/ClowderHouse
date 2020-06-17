@@ -15,7 +15,7 @@ const images: image[] = [
 	{ id: 2, src: pic2, alt: '' },
 	{ id: 3, src: pic3, alt: '' },
 	{ id: 4, src: pic4, alt: '' },
-	{ id: 5, src: pic5, alt: '' }
+	{ id: 5, src: pic5, alt: '' },
 ];
 
 export default images;
