@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Router, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import './App.css';
@@ -9,23 +9,9 @@ import { LandingPage } from './Components/Pages/LandingPage/LandingPage';
 export const history = createBrowserHistory();
 
 const App: React.FC = () => {
-	const [hidden, setHidden] = useState(false);
-
 	return (
 		<>
-			<div className={`donation-header ${hidden ? 'hidden' : ''}`}>
-				<div
-					className="donation-header-close"
-					onClick={() => setHidden(true)}
-				>
-					&#10006;
-				</div>
-				<div className="donation-header-text">
-					Kittens up for adoption!
-				</div>
-			</div>
 			<NavBar />
-
 			<Router history={history}>
 				<Switch>
 					<Route path="/" exact component={LandingPage} />
