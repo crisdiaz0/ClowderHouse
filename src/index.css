@@ -6,11 +6,11 @@
 	--orange: #ff9f1c;
 	--black: #121e36;
 
-	--main-padding: 36px;
+	--main-padding: 32px;
 	--sub-padding: 16px;
 	--small-padding: 8px;
 
-	--border-radius: 16px;
+	--border-radius: 12px;
 
 	--main-font-size: 24px;
 }
@@ -23,7 +23,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	background-color: var(--white);
-
 	margin: auto;
-	max-width: 1500px;
+	max-width: 1200px;
+	line-height: 1.25;
 }

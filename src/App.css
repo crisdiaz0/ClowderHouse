@@ -1,3 +1,7 @@
+.LazyLoad {
+	height: 100%;
+}
+
 .donation-header {
 	display: flex;
 	background-color: #e71d36;

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Section.css';
 import { image } from '../../assets/Images';
+import LazyLoad from 'react-lazy-load';
 
 interface SectionProps {
 	id: string;
@@ -26,12 +27,19 @@ export const Section = ({
 
 	const imgContainer = (
 		<div className="section-img-container">
-			{img && <img src={img.src} alt={img.alt} />}
+			{img && (
+				<LazyLoad offset={250}>
+					<img className="section-img" src={img.src} alt={img.alt} />
+				</LazyLoad>
+			)}
 		</div>
 	);
 
 	return (
-		<div id={id} className={`${isReversed ? 'reversed' : 'normal'}`}>
+		<div
+			id={id}
+			className={`section ${isReversed ? 'reversed' : 'normal'}`}
+		>
 			{isReversed ? (
 				<>
 					{imgContainer}

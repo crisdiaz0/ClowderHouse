@@ -5,17 +5,18 @@ import pic5 from './pic5.jpg';
 import logo from './clowderlogo.gif';
 
 export interface image {
-	id: number;
 	src: string;
 	alt: string;
 }
 
 const images: image[] = [
-	{ id: 1, src: logo, alt: 'Clowder House' },
-	{ id: 2, src: pic2, alt: '' },
-	{ id: 3, src: pic3, alt: '' },
-	{ id: 4, src: pic4, alt: '' },
-	{ id: 5, src: pic5, alt: '' },
+	{ src: logo, alt: 'Clowder House' },
+	{ src: pic2, alt: '' },
+	{ src: pic3, alt: '' },
+	{ src: pic4, alt: '' },
+	{ src: pic5, alt: '' },
 ];
+
+export const galleryImages: image[] = [...images];
 
 export default images;

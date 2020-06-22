@@ -9,7 +9,7 @@ export const FAQ = ({ title, body }: FAQProps) => {
 	return (
 		<>
 			<b>{title}</b>
-			<p>{body}</p>
+			<p style={{ marginTop: 4, marginBottom: 24 }}>{body}</p>
 		</>
 	);
 };
