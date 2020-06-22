@@ -7,26 +7,3 @@
 	text-decoration: none;
 	color: var(--black);
 }
-
-.primary .link {
-	color: var(--white);
-}
-
-.primary {
-	background-color: var(--black);
-	border-radius: var(--border-radius);
-}
-
-@media only screen and (min-device-width: 500px) and (max-device-width: 900px) {
-	.link-container {
-		padding: 32px 9px;
-		margin: 0px 22px 0 22px;
-	}
-}
-
-@media only screen and (max-device-width: 500px) {
-	.link-container {
-		padding: 32px 9px;
-		margin: 0px;
-	}
-}

@@ -1,5 +1,6 @@
 .nav-bar {
 	display: flex;
+	align-items: center;
 }
 
 .message-header {
@@ -30,53 +31,32 @@
 	display: none;
 }
 
-@media only screen and (max-device-width: 500px) {
-	.donation-header {
+.nav-bar__logo img {
+	width: 100%;
+	max-width: 400px;
+}
+
+/* @media only screen and (max-device-width: 500px) {
+	.message-header {
 		font-size: small;
+		height: 50px;
 	}
-	.donation-header-close {
-		width: 7%;
+	.message-header__close {
+		width: 10%;
 	}
 
-	.donation-header-text {
+	.message-header__text {
 		width: 85%;
 	}
-}
-
-/* .main-logo {
-	width: 100%;
-	display: flex;
-	justify-content: center;
 } */
 
-/* .NavBar {
-	display: flex;
-	justify-content: space-between;
-}
-
-.left {
-	display: flex;
-	align-items: center;
-}
-
-.main-links {
-	display: flex;
-	margin-right: 32px;
-}
-
-@media only screen and (max-device-width: 900px) {
-	.NavBar {
+@media only screen and (max-device-width: 700px) {
+	.nav-bar {
 		display: grid;
 		grid-template-columns: 1fr;
 	}
 
-	.main-links {
-		justify-content: space-between;
-		margin-right: 0px;
-		margin: 0px 8px;
+	.nav-bar .nav-bar__links {
+		padding: 20px;
 	}
-
-	img {
-		width: 100vw;
-	}
-} */
+}

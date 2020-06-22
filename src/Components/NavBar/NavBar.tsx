@@ -24,8 +24,8 @@ export const NavBar = () => {
 					<img src={images[0].src} alt={images[0].alt} />
 				</div>
 				<div className="nav-bar__links">
-					<Link text="Home" link="/" isPrimary={false} />
-					<Link text="Gallery" link="/gallery" isPrimary={false} />
+					<Link text="Home" link="/" />
+					<Link text="Gallery" link="/gallery" />
 				</div>
 			</div>
 		</>
