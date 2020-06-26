@@ -16,7 +16,9 @@ export const NavBar = () => {
 					&#10006;
 				</div>
 				<div className="message-header__text">
-					Kittens up for adoption!
+					We have kittens available for adoption! (All but the Siamese
+					kittens are available) Visit our{' '}
+					<a href="/gallery">gallery</a> to see more!
 				</div>
 			</div>
 			<div className="nav-bar">

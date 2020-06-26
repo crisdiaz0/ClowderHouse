@@ -87,13 +87,13 @@ export const catAdmittanceSection = (
 );
 
 export const adoptSection = (
-	<>
+	<p>
 		Have a little room at your house for a loving, four-legged friend? Since
 		Clowder House provides homes for abused and neglected cats as space and
 		funds allow, rescued cats that can be socialized are available for
 		adoption. We have lots of cats and kittens who need homes. Please
 		contact us!
-	</>
+	</p>
 );
 
 export const faqSection = (

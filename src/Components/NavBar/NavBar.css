@@ -11,7 +11,6 @@
 	height: 75px;
 	justify-content: flex-start;
 	align-items: center;
-	font-size: larger;
 	font-weight: bolder;
 }
 
@@ -27,6 +26,10 @@
 	align-items: center;
 }
 
+.message-header__text a {
+	color: #fff;
+}
+
 .hidden {
 	display: none;
 }
@@ -36,10 +39,10 @@
 	max-width: 400px;
 }
 
-/* @media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 500px) {
 	.message-header {
 		font-size: small;
-		height: 50px;
+		height: 90px;
 	}
 	.message-header__close {
 		width: 10%;
@@ -48,7 +51,7 @@
 	.message-header__text {
 		width: 85%;
 	}
-} */
+}
 
 @media only screen and (max-device-width: 700px) {
 	.nav-bar {

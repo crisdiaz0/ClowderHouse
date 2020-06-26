@@ -8,17 +8,7 @@ const GalleryPage = () => {
 		<div className="gallery-page">
 			<div className="gallery-page__image-container">
 				{galleryImages.map((i) => (
-					<LazyLoad offset={250}>
-						<img src={i.src} alt={i.alt} />
-					</LazyLoad>
-				))}
-				{galleryImages.map((i) => (
-					<LazyLoad offset={250}>
-						<img src={i.src} alt={i.alt} />
-					</LazyLoad>
-				))}
-				{galleryImages.map((i) => (
-					<LazyLoad offset={250}>
+					<LazyLoad offset={100}>
 						<img src={i.src} alt={i.alt} />
 					</LazyLoad>
 				))}
