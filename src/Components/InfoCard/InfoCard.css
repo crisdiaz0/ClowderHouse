@@ -1,6 +1,8 @@
 .InfoCard {
 	width: auto;
+	max-width: 500px;
 	height: auto;
+	min-height: 300px;
 	text-align: center;
 	background-color: white;
 	margin: 16px;
