@@ -1,20 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './NavBar.css';
 import { Link } from '../Link/Link';
 import images from '../../assets/Images';
 
 export const NavBar = () => {
-	const [hidden, setHidden] = useState(false);
-
 	return (
 		<>
-			<div className={`message-header ${hidden ? 'hidden' : ''}`}>
-				<div
-					className="message-header__close"
-					onClick={() => setHidden(true)}
-				>
-					&#10006;
-				</div>
+			<div className={`message-header`}>
+				<div className="message-header__close">{/* &#10006; */}</div>
 				<div className="message-header__text">
 					We have kittens available for adoption! (All but the Siamese
 					kittens are available) Visit our{' '}

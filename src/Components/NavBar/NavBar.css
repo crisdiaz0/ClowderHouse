@@ -47,6 +47,7 @@
 
 	.nav-bar .nav-bar__links {
 		padding: 20px;
+		margin: auto;
 	}
 
 	.message-header {
