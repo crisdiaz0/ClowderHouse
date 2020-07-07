@@ -8,10 +8,14 @@ export const NavBar = () => {
 		<>
 			<div className={`message-header`}>
 				<div className="message-header__close">{/* &#10006; */}</div>
-				<div className="message-header__text">
+				{/* <div className="message-header__text">
 					We have kittens available for adoption! (All but the Siamese
 					kittens are available) Visit our{' '}
 					<a href="/gallery">gallery</a> to see more!
+				</div> */}
+				<div className="message-header__text">
+					We have kittens available for adoption! Please call us for
+					more information!
 				</div>
 			</div>
 			<div className="nav-bar">
@@ -20,7 +24,11 @@ export const NavBar = () => {
 				</div>
 				<div className="nav-bar__links">
 					<Link text="Home" link="/" />
-					<Link text="Gallery" link="/gallery" />
+					<Link
+						text="Gallery (coming soon!)"
+						link=""
+						clickable={false}
+					/>
 				</div>
 			</div>
 		</>

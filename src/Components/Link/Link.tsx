@@ -5,14 +5,24 @@ export interface LinkProps {
 	text: string;
 	link: string;
 	isPrimary?: boolean;
+	clickable?: boolean;
 }
 
-export const Link = ({ text, link, isPrimary = false }: LinkProps) => {
+export const Link = ({
+	text,
+	link,
+	isPrimary = false,
+	clickable = true,
+}: LinkProps) => {
 	return (
 		<span className={`link-container ${isPrimary ? 'primary' : ''}`}>
-			<a href={link} className="link">
-				{text}
-			</a>
+			{clickable ? (
+				<a href={link} className="link">
+					{text}
+				</a>
+			) : (
+				<>{text}</>
+			)}
 		</span>
 	);
 };
