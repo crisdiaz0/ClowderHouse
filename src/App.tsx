@@ -2,9 +2,8 @@ import React from 'react';
 import { Route, Router, Switch } from 'react-router-dom';
 import { createBrowserHistory } from 'history';
 import './App.css';
-import GalleryPage from './Components/Pages/GalleryPage/GalleryPage';
 import { NavBar } from './Components/NavBar/NavBar';
-import { LandingPage } from './Components/Pages/LandingPage/LandingPage';
+import HomePage from './Components/Pages/HomePage/HomePage';
 
 export const history = createBrowserHistory();
 
@@ -14,8 +13,7 @@ const App: React.FC = () => {
 			<NavBar />
 			<Router history={history}>
 				<Switch>
-					<Route path="/" exact component={LandingPage} />
-					<Route path="/gallery" exact component={GalleryPage} />
+					<Route path="/" children={HomePage} />
 				</Switch>
 			</Router>
 		</>

@@ -1,0 +1,19 @@
+import React from 'react';
+import GalleryPage from '../GalleryPage/GalleryPage';
+import { LandingPage } from '../LandingPage/LandingPage';
+
+const HomePage = (props: any) => {
+	const location = props.location;
+
+	return location.search != null ? (
+		location.search === '?p=gallery' ? (
+			<GalleryPage />
+		) : (
+			<LandingPage />
+		)
+	) : (
+		<LandingPage />
+	);
+};
+
+export default HomePage;
