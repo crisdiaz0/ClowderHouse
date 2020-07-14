@@ -17,6 +17,7 @@ import pic16 from './pic16-min.jpg';
 import pic17 from './pic17-min.jpg';
 import pic18 from './pic18-min.jpg';
 import pic19 from './pic19-min.jpg';
+import pic20 from './pic20-min.jpg';
 
 export interface image {
 	src: string;
@@ -36,7 +37,6 @@ export const galleryImages: image[] = [
 	{ src: pic16, alt: '' },
 	{ src: pic17, alt: '' },
 	{ src: pic18, alt: '' },
-	{ src: pic19, alt: '' },
 	{ src: pic8, alt: '' },
 	{ src: pic9, alt: '' },
 	{ src: pic10, alt: '' },
@@ -46,6 +46,8 @@ export const galleryImages: image[] = [
 	{ src: pic6, alt: '' },
 	{ src: pic7, alt: '' },
 	{ src: pic14, alt: '' },
+	{ src: pic19, alt: '' },
+	{ src: pic20, alt: '' },
 ];
 
 export default images;
