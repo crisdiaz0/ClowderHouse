@@ -1,4 +1,4 @@
-import logo from './clowderlogo.gif';
+import logo from './clowderlogo.jpg';
 import pic2 from './pic2-min.jpg';
 import pic3 from './pic3-min.jpg';
 import pic4 from './pic4-min.jpg';
@@ -33,13 +33,6 @@ const images: image[] = [
 ];
 
 export const galleryImages: image[] = [
-	{ src: pic15, alt: '' },
-	{ src: pic16, alt: '' },
-	{ src: pic17, alt: '' },
-	{ src: pic18, alt: '' },
-	{ src: pic8, alt: '' },
-	{ src: pic9, alt: '' },
-	{ src: pic10, alt: '' },
 	{ src: pic11, alt: '' },
 	{ src: pic12, alt: '' },
 	{ src: pic13, alt: '' },
@@ -48,6 +41,13 @@ export const galleryImages: image[] = [
 	{ src: pic14, alt: '' },
 	{ src: pic19, alt: '' },
 	{ src: pic20, alt: '' },
+	{ src: pic15, alt: '' },
+	{ src: pic16, alt: '' },
+	{ src: pic17, alt: '' },
+	{ src: pic18, alt: '' },
+	{ src: pic8, alt: '' },
+	{ src: pic9, alt: '' },
+	{ src: pic10, alt: '' },
 ];
 
 export default images;

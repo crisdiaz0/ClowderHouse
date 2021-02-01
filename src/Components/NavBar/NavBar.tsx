@@ -6,14 +6,14 @@ import images from '../../assets/Images';
 export const NavBar = () => {
 	return (
 		<>
-			<div className={`message-header`}>
-				<div className="message-header__close">{/* &#10006; */}</div>
+			{/* <div className={`message-header`}>
+				<div className="message-header__close">x</div>
 				<div className="message-header__text">
 					We have kittens available for adoption! Contact us for
 					availability, and visit our{' '}
 					<a href="/?p=gallery">gallery</a> to see more!
 				</div>
-			</div>
+			</div> */}
 			<div className="nav-bar">
 				<div className="nav-bar__logo">
 					<img src={images[0].src} alt={images[0].alt} />

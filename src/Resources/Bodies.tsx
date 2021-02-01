@@ -38,7 +38,7 @@ export const volunteerSection = (
 			House provides all on-site training and lots of loving cats!
 		</p>
 		<p>We are looking for caring volunteers who:</p>
-		<ul>
+		<ul className='volunteer-list'>
 			<li>Are age 16 or older</li>
 			<li>Can provide own transportation to and from our facility</li>
 			<li>
