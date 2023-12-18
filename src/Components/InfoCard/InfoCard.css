@@ -34,13 +34,14 @@
 .info-card-header {
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding: var(--small-padding);
 	color: white;
 	border-radius: var(--border-radius) var(--border-radius) 0px 0px;
 }
 
 .info-card-header-text {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 700;
 	padding: var(--small-padding);
 }
