@@ -1,6 +1,7 @@
 import React from 'react';
 import GalleryPage from '../GalleryPage/GalleryPage';
 import { LandingPage } from '../LandingPage/LandingPage';
+import AdoptionPage from '../AdoptionPage/AdoptionPage'
 
 const HomePage = (props: any) => {
 	const location = props.location;
@@ -8,9 +9,9 @@ const HomePage = (props: any) => {
 	return location.search != null ? (
 		location.search === '?p=gallery' ? (
 			<GalleryPage />
-		) : (
-			<LandingPage />
-		)
+		) : location.search === '?p=adoption' ? (
+			<AdoptionPage />
+		) : (<LandingPage />)
 	) : (
 		<LandingPage />
 	);

@@ -34,9 +34,18 @@
 	display: none;
 }
 
+.nav-bar__logo {
+	text-align: center;
+}
+
 .nav-bar__logo img {
 	width: 100%;
 	max-width: 474px;
+}
+
+.nav-bar__links {
+	font-size: 18px;
+	font-weight: 650;	
 }
 
 @media only screen and (max-device-width: 700px) {
@@ -48,6 +57,7 @@
 	.nav-bar .nav-bar__links {
 		padding: 20px;
 		margin: auto;
+		font-size: 14px;
 	}
 
 	.message-header {

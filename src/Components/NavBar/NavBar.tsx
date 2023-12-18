@@ -21,6 +21,7 @@ export const NavBar = () => {
 				<div className="nav-bar__links">
 					<Link text="Home" link="/" />
 					<Link text="Gallery" link="/?p=gallery" />
+					<Link text="Adoption" link="/?p=adoption" />
 				</div>
 			</div>
 		</>
