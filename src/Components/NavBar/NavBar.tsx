@@ -20,8 +20,8 @@ export const NavBar = () => {
 				</div>
 				<div className="nav-bar__links">
 					<Link text="Home" link="/" />
-					<Link text="Gallery" link="/?p=gallery" />
 					<Link text="Adoption" link="/?p=adoption" />
+					<Link text="Gallery" link="/?p=gallery" />
 				</div>
 			</div>
 		</>
