@@ -8,10 +8,6 @@
     max-height: 320px !important;
 }
 
-.image-gallery-bullets .image-gallery-bullet {
-    transform: scale(0.7) !important;
-}
-
 .adoption-card-container {
     display: flex;
     flex-wrap: wrap; 

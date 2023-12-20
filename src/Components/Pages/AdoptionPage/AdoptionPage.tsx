@@ -13,6 +13,7 @@ const AdoptionPage = () => {
                 body={"Information here about our adoption policies, contact info, etc"}
             />
 
+            <h2 style={{textAlign: 'center'}}>Available Cats</h2>
             <div className='adoption-card-container'>
                 {AdoptionCatsData.map(cat => <AdoptionCard cat={cat} />)}
                 {AdoptionCatsData.map(cat => <AdoptionCard cat={cat} />)}

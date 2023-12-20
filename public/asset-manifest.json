@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9f49dc33.css",
+    "main.js": "/static/js/main.b308b9be.js",
+    "static/media/pic13-min.jpg": "/static/media/pic13-min.cff3b636b5d99969bc13.jpg",
+    "static/media/pic9-min.jpg": "/static/media/pic9-min.a21a42fac2506ff9628c.jpg",
+    "static/media/pic10-min.jpg": "/static/media/pic10-min.0ca675e4a4dc1d7dc0d5.jpg",
+    "static/media/pic11-min.jpg": "/static/media/pic11-min.6056cba1df9be7572d4c.jpg",
+    "static/media/pic8-min.jpg": "/static/media/pic8-min.f799ad4089af6fd48c42.jpg",
+    "static/media/pic3-min.jpg": "/static/media/pic3-min.c4a61687398cd5449d2e.jpg",
+    "static/media/pic18-min.jpg": "/static/media/pic18-min.c951e8d72c17601c68e7.jpg",
+    "static/media/pic20-min.jpg": "/static/media/pic20-min.0fbe07d2a2d49e101af4.jpg",
+    "static/media/pic17-min.jpg": "/static/media/pic17-min.2142bcbecdc57c058bfe.jpg",
+    "static/media/cassy1.jpeg": "/static/media/cassy1.fbfa0b1a11932e28ddeb.jpeg",
+    "static/media/pic4-min.jpg": "/static/media/pic4-min.3fb551ca5ebc21e2c061.jpg",
+    "static/media/pic12-min.jpg": "/static/media/pic12-min.f7784cfb99deb2077619.jpg",
+    "static/media/pic15-min.jpg": "/static/media/pic15-min.b3d527cb64cf41920766.jpg",
+    "static/media/pic19-min.jpg": "/static/media/pic19-min.72ddd6df29ffd7acd7a9.jpg",
+    "static/media/pic16-min.jpg": "/static/media/pic16-min.9a0daf3fd6da0d8eda45.jpg",
+    "static/media/cassy2.jpeg": "/static/media/cassy2.bcb2c56c8c10ddda06bd.jpeg",
+    "static/media/luna1.jpeg": "/static/media/luna1.c08f877a7c20c04ff129.jpeg",
+    "static/media/pic14-min.jpg": "/static/media/pic14-min.e4d9b3515ae8bcfc40f3.jpg",
+    "static/media/pic5-min.jpg": "/static/media/pic5-min.d0cf093b2b09c01aa517.jpg",
+    "static/media/pic7-min.jpg": "/static/media/pic7-min.ca34725801fa74e9f806.jpg",
+    "static/media/pic6-min.jpg": "/static/media/pic6-min.a38ffd15e35fd5a4b2e3.jpg",
+    "static/media/luna2.jpeg": "/static/media/luna2.6ca4c407d640149e3a44.jpeg",
+    "static/media/pic2-min.jpg": "/static/media/pic2-min.4af47afd985a0543873c.jpg",
+    "static/media/clowderlogo.jpg": "/static/media/clowderlogo.fb8b78da752a4a4366f9.jpg",
+    "index.html": "/index.html",
+    "main.9f49dc33.css.map": "/static/css/main.9f49dc33.css.map",
+    "main.b308b9be.js.map": "/static/js/main.b308b9be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f49dc33.css",
+    "static/js/main.b308b9be.js"
+  ]
+}
