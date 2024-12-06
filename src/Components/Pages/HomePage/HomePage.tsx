@@ -9,8 +9,6 @@ const HomePage = (props: any) => {
 	return location.search != null ? (
 		location.search === '?p=gallery' ? (
 			<GalleryPage />
-		) : location.search === '?p=adoption' ? (
-			<AdoptionPage />
 		) : (<LandingPage />)
 	) : (
 		<LandingPage />
